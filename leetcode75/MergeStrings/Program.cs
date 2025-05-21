@@ -12,7 +12,7 @@ public static class Solutions
 {
     //2 Misses of thigns I could have used
     // Could have used stringBuilder
-    // Could have used Math.Max instead of the diff calc
+    // Could have used Math.Max instead of the diff calcM
     public static string MergeAlternately(string word1, string word2)
     {
         //can use word1[] and word2[]
