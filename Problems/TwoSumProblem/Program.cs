@@ -15,7 +15,11 @@ Console.WriteLine($"Dictionary: [{dictionaryResult[0]}, {dictionaryResult[1]}]")
 //Things to take away from this problem:
 //At face value the brute force nested loop comes to mind and in theory would work
 // But there is a faster solution using Dictionary, this is because we need a value pair and this allows us to store in a hash map
-// 
+
+
+//This is the start of the HashMap (Dictionary Pattern) -> If we need to generate pairs and traverse both loops look to this option. 
+
+//I wonder if I am better of doing SudoCode up front of Brute Force and to help me draw conclusions of more elegant DS.
 
 public class Solutions
 {
