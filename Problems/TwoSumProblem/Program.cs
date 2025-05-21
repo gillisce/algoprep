@@ -26,7 +26,7 @@ public class Solutions
                 if (nums[i] + nums[j] == target)
                     return new int[] { i, j };
 
-        return new int[] { };
+        return [];
     }
 
     public int[] TwoSumDictionary(int[] nums, int target)
@@ -61,7 +61,7 @@ public class Solutions
             // else
             //     result.TryAdd(nums[i], i);
         }
-        return default;
+        return [];
     }
 
 }
