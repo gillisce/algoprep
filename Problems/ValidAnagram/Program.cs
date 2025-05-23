@@ -74,3 +74,4 @@ bool IsAnagramArrayBase(string s, string t)
 }
 
 Console.WriteLine($"{IsAnagram(s,t)}");
+Console.WriteLine($"{IsAnagramArrayBase(s,t)}");
