@@ -185,6 +185,20 @@ public class Solution
 
     public int PairSumFancy(ListNode head)
     {
+        if (head == null)
+        {
+            return 0;
+        }
+        // 1 Item
+        if (head.next == null)
+        {
+            return head.val;
+        }
+        //2 Items
+        if (head.next.next == null)
+        {
+            return head.val + head.next.val;
+        }
         ListNode fast = head;
         ListNode slow = head;
         while (fast != null && fast.next != null)
@@ -210,6 +224,7 @@ public class Solution
             p1 = p1.next;
             p2 = p2.next;
         }
+        return maxSum;
     }
 
 }
