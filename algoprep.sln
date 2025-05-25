@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubStringNoRepeat", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListProblems", "Problems\LinkedListProblems\LinkedListProblems.csproj", "{964EBE71-C1CE-40C6-832B-DF88D769F018}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeProblems", "Problems\BinaryTreeProblems\BinaryTreeProblems.csproj", "{F3FBAA01-C7F7-4FF4-858F-55D77747F8EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -185,6 +187,18 @@ Global
 		{964EBE71-C1CE-40C6-832B-DF88D769F018}.Release|x64.Build.0 = Release|Any CPU
 		{964EBE71-C1CE-40C6-832B-DF88D769F018}.Release|x86.ActiveCfg = Release|Any CPU
 		{964EBE71-C1CE-40C6-832B-DF88D769F018}.Release|x86.Build.0 = Release|Any CPU
+		{F3FBAA01-C7F7-4FF4-858F-55D77747F8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3FBAA01-C7F7-4FF4-858F-55D77747F8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3FBAA01-C7F7-4FF4-858F-55D77747F8EA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F3FBAA01-C7F7-4FF4-858F-55D77747F8EA}.Debug|x64.Build.0 = Debug|Any CPU
+		{F3FBAA01-C7F7-4FF4-858F-55D77747F8EA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F3FBAA01-C7F7-4FF4-858F-55D77747F8EA}.Debug|x86.Build.0 = Debug|Any CPU
+		{F3FBAA01-C7F7-4FF4-858F-55D77747F8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3FBAA01-C7F7-4FF4-858F-55D77747F8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3FBAA01-C7F7-4FF4-858F-55D77747F8EA}.Release|x64.ActiveCfg = Release|Any CPU
+		{F3FBAA01-C7F7-4FF4-858F-55D77747F8EA}.Release|x64.Build.0 = Release|Any CPU
+		{F3FBAA01-C7F7-4FF4-858F-55D77747F8EA}.Release|x86.ActiveCfg = Release|Any CPU
+		{F3FBAA01-C7F7-4FF4-858F-55D77747F8EA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -202,6 +216,7 @@ Global
 		{1EC7E5C7-85B3-4442-8C26-652832E0FB08} = {BEC6521A-F901-2BBF-F273-35A4FDC6E8A1}
 		{F85CAA00-41A0-4DFA-ACC8-322EA989EF04} = {BEC6521A-F901-2BBF-F273-35A4FDC6E8A1}
 		{964EBE71-C1CE-40C6-832B-DF88D769F018} = {BEC6521A-F901-2BBF-F273-35A4FDC6E8A1}
+		{F3FBAA01-C7F7-4FF4-858F-55D77747F8EA} = {BEC6521A-F901-2BBF-F273-35A4FDC6E8A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {763BDD02-92D8-4D61-86A2-FF562193E4E9}

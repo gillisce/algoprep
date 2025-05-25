@@ -19,7 +19,11 @@ Welcome to **AlgoPrep**, a curated C# repository focused on mastering data struc
 
 ```bash
 algoprep/
-├── docs/                 # LeetCode 75 Study Plan problems
+├── docs/                 # Docs, Custom Study Guides, Alogo Patterns
+│   ├── linkedlists/      #Specific File to breadown patterns on Linked Lists
+│   │   └── README.md
+│   ├── CSharp_Algorithm_Patterns.md # Pattern explanations (e.g. Two Pointers, Sliding Window)
+│   ├── 7_Day_Crash_Course.md   # Only 7 Days to prep? This study guide gives you a crash course to refresh your DSA skills
 ├── leetcode75/                 # LeetCode 75 Study Plan problems
 ├── Problems/                   # Individual problems
 │   ├── 001_TwoSum/
@@ -27,7 +31,6 @@ algoprep/
 │   ├── 002_AddTwoNumbers/
 │   │   └── 002_AddTwoNumbers.csproj
 │   └── ...
-├── CSharp_Algorithm_Patterns.md # Pattern explanations (e.g. Two Pointers, Sliding Window)
 ├── algoprep.sln                # Solution file (includes all projects)
 └── README.md                   # You're here!
 ```
